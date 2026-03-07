@@ -1,0 +1,36 @@
+{
+  "name": "boilerplate-typescript-vite",
+  "version": "1.0.0",
+  "description": "Foundations to make my web project (in typescript using vite) easier to start",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tyous69/boilerplate-typescript-vite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tyous69/boilerplate-typescript-vite/issues"
+  },
+  "homepage": "https://github.com/Tyous69/boilerplate-typescript-vite#readme",
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.1",
+    "vite": "^7.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react": "^5.1.4",
+    "sass": "^1.97.3",
+    "typescript": "^5.9.3"
+  }
+}

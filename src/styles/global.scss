@@ -1,0 +1,42 @@
+// =============================================================================
+// GLOBAL STYLES
+// =============================================================================
+// This file is the single entry point for all global styles.
+// It is imported once in main.tsx and applies to the entire app.
+//
+// Use this file for:
+//   - CSS resets / base styles
+//   - CSS custom properties (variables)
+//   - Typography defaults (font-family, font-size, line-height)
+//   - Global layout rules (box-sizing, margin/padding resets)
+//
+// Do NOT put component-specific styles here.
+// Each component has its own .module.scss file.
+// =============================================================================
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  // Colors
+  --color-primary: red;
+  --color-background: #ffffff;
+  --color-text: #213547;
+
+  // Typography
+  --font-family: Inter, system-ui, sans-serif;
+  --font-size-base: 16px;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  background-color: var(--color-background);
+  line-height: 1.5;
+}
