@@ -32,7 +32,7 @@ src/
 ### 1. Clone & Rename
 Clone the boilerplate and give it your new project name:
 ```bash
-git clone [https://github.com/Tyous69/boilerplate-typescript-vite.git](https://github.com/Tyous69/boilerplate-typescript-vite.git) [YOUR-PROJECT-NAME]
+git clone https://github.com/Tyous69/boilerplate-typescript-vite.git [YOUR-PROJECT-NAME]
 cd [YOUR-PROJECT-NAME]
 
 ```
