@@ -29,44 +29,73 @@ src/
 
 ## Getting Started
 
-### Get rid of the boilerplate link
+### 1. Clone & Rename
+Clone the boilerplate and give it your new project name:
+```bash
+git clone [https://github.com/Tyous69/boilerplate-typescript-vite.git](https://github.com/Tyous69/boilerplate-typescript-vite.git) [YOUR-PROJECT-NAME]
+cd [YOUR-PROJECT-NAME]
+
+```
+
+### 2. Reset Git History
+
+To start a fresh history and disconnect from the boilerplate:
+
+**On macOS / Linux:**
+
 ```bash
 rm -rf .git
+
 ```
 
-### Initialize new git project
+**On Windows (PowerShell):**
+
+```powershell
+Remove-Item -Recurse -Force .git
+
 ```
-bash
+
+### 3. Initialize your New Repository
+
+```bash
+# 1. Start a new git
 git init
-git remote add origin https://github.com/[YOUR-USERNAME]/[NEW-PROJECT-NAME].git
-```
 
-### First commit
-```
-bash
+# 2. Rename branch to main (Standard)
+git branch -M main
+
+# 3. Connect to your NEW GitHub repo
+git remote add origin [https://github.com/](https://github.com/)[YOUR-USERNAME]/[YOUR-NEW-REPO].git
+
+# 4. First Push
 git add .
-git commit -m "init: from boilerplate"
-git push -u origin main
+git commit -m "init: bootstrap from boilerplate"
+
+# Note: Use --force only for the very first push if your repo on GitHub is not empty
+git push -u origin main --force
+
 ```
 
-### Install dependencies
+### 4. Install & Run
+
 ```bash
+# Install dependencies
 npm install
-```
 
-### Start the dev server
-```bash
+# Start development server
 npm run dev
+
 ```
 
-### Build for production
+### 5. Build & Preview
+
 ```bash
+# Build for production
 npm run build
-```
 
-### Preview the production build
-```bash
+# Preview production build locally
 npm run preview
+
 ```
 
 ## Notes
