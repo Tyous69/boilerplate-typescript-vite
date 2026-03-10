@@ -65,7 +65,7 @@ git init
 git branch -M main
 
 # 3. Connect to your NEW GitHub repo
-git remote add origin [https://github.com/](https://github.com/)[YOUR-USERNAME]/[YOUR-NEW-REPO].git
+git remote add origin https://github.com/[YOUR-USERNAME]/[YOUR-NEW-REPO].git
 
 # 4. First Push
 git add .
