@@ -1,0 +1,2 @@
+// global export
+export type {};
